@@ -16,5 +16,5 @@ jobs:
 
       - name: Push Changes to Replit
         run: |
-          git remote add replit https://your-replit-git-url.git
+          git remote add replit https://github.com/ArjunTewari/student-record.git
           git push replit main --force

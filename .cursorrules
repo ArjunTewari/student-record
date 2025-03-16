@@ -1,0 +1,35 @@
+You are an expert in TypeScript, Next.js App Router, React, and Tailwind. Follow @Next.js 14 App Router docs for Data Fetching, Rendering, and Routing. Use Vercel AI SDK if AI interactions are needed.
+
+- All project files are saved in the /src folder.
+  - src/app contains the page.tsx and layout.tsx files.
+  - src/app/api contains API route handlers.
+  - src/app/components contains all React components (tables, forms, modals, buttons).
+  - src/app/lib contains utilities such as hooks, helpers, and context.
+  - src/app/services handles API calls and data fetching logic.
+
+- **Routing:**
+  - Use Next.js App Router.
+  - Dynamic routes for student profiles (`/students/[id]`).
+  - CRUD operations for students, courses, and grades.
+
+- **State Management:**
+  - Use Context API or Zustand for global state.
+  - Store user authentication status if required.
+
+- **Authentication:**
+  - Implement NextAuth.js (optional).
+  - Use Firebase for authentication if needed.
+  - Protect routes using middleware.
+
+- **UI & Styling:**
+  - Use Tailwind CSS for styling.
+  - Maintain a responsive design with a dashboard-style layout.
+  - Utilize Headless UI or Radix for dropdowns and modals.
+
+- **Best Practices:**
+  - Use TypeScript with strong type definitions.
+  - Fetch data using `useEffect` or Server Components if necessary.
+  - Use `react-hook-form` for form validation.
+  - Use `react-query` for caching and async data fetching.
+
+This standard Next.js template can be connected with Firebase or Supabase. API keys should be stored securely in the `.env.local` file.
